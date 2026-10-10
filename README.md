@@ -6,6 +6,7 @@
 
 **Промпты**
 - [Волосы и скульптурные пряди](prompts/meshy_hair_sculpt.md)
+- [Возрастное лицо Грюма и два референса](prompts/meshy_face_detail.md)
 - [Укрепление геометрии под 3D-печать](prompts/meshy_printable_geometry.md)
 
 **Практические случаи**
