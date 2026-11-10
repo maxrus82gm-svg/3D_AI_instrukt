@@ -28,3 +28,18 @@
 6. В этой записи различать созданные артефакты и то, что ещё только планируется.
 
 **Артефакты GLB и превью** созданы в сессии ChatGPT и переданы ссылками на скачивание в диалоге; на момент этой записи бинарные GLB и оригинальные 15 скриншотов **не загружены в GitHub**. Претензия на окончательную точность по референсам не заявляется.
+
+## Воспроизведение
+
+- [Исходный генератор blockout v0.1](low_poly_character/scripts/create_character.py)
+- [Скругление и соединение тела v0.2](low_poly_character/scripts/create_character_rounded.py)
+
+Запуск после загрузки обоих скриптов в одну папку (Python 3.10+):
+
+```bash
+pip install numpy scipy scikit-image trimesh vtk
+python create_character.py
+python create_character_rounded.py
+```
+
+Скрипты создают `low_poly_character.glb` и `low_poly_character_rounded_v02.glb`. Сам GLB доступен для скачивания в диалоге; бинарные версии в GitHub пока не внесены.
