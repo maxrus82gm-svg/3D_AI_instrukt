@@ -12,6 +12,7 @@
 **Практические случаи**
 - [Аластор Грюм: голова + тело](cases/mad_eye_moody.md)
 - [Патронус-олень: прочность без потери образа](cases/patronus_stag.md)
+- [Low-poly персонаж: скругление и объединение тела, кепка и оружие отдельно (v0.1 → v0.2)](cases/low_poly_character.md)
 
 **На будущее**
 - [Codex ↔ Meshy через MCP](notes/meshy_codex_mcp.md)
